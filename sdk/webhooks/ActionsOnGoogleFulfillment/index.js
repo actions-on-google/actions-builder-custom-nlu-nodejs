@@ -1,5 +1,5 @@
 /**
- * Copyright 2020 Google Inc. All Rights Reserved.
+ * Copyright 2020 Google LLC
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-const {conversation} = require('actions-on-google');
+const {conversation} = require('@assistant/conversation');
 const functions = require('firebase-functions');
 
-const app = conversation();
+const app = conversation({debug: true});
 
 app.handle('doAny', (conv) => {
   if (conv.intent.name.startsWith('actions.intent.NO_INPUT')) {

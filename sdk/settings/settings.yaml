@@ -1,4 +1,4 @@
-# Copyright 2020 Google Inc. All Rights Reserved.
+# Copyright 2020 Google LLC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,11 +13,13 @@
 # limitations under the License.
 defaultLocale: en
 localizedSettings:
-  developerEmail: example@example.com
-  developerName: Example Developer Name
-  fullDescription: This action demonstrates custom NLU.
-  privacyPolicyUrl: https://example.com
-  sampleInvocations:
-  - talk to custom NLU test
-  shortDescription: Custom NLU test action
+  developerEmail:
+  developerName:
+  displayName: Custom NLU sample
+  fullDescription:
+  privacyPolicyUrl:
+  pronunciation: Custom NLU sample
+  shortDescription:
+  smallLogoImage:
+  termsOfServiceUrl:
 projectId: <PROJECT_ID>
